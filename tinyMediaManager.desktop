@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=tinyMediaManager
+Path=/opt/tinymediamanager
+Exec=/bin/sh "/opt/tinymediamanager/tinyMediaManager.sh"
+Icon=/usr/share/pixmaps/tinymediamanager.png
+Categories=AudioVideo;Video;Database;Java;
