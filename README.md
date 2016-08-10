@@ -4,19 +4,8 @@ An movies and tv shows organizer.
 
 URL: http://www.tinymediamanager.org/
 
-Optional from KCP:
-[libzen](../../../libzen) [libmediainfo](../../../libmediainfo) [mediainfo](../../../mediainfo)
 
-Install in this order:
-```
-kcp -di libzen 
-```
-```
-kcp -di libmediainfo 
-```
-```
-kcp -di mediainfo 
-```
+Install:
 ```
 kcp -i tinymediamanager
 ```
