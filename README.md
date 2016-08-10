@@ -21,4 +21,4 @@ kcp -di mediainfo
 kcp -i tinymediamanager
 ```
 
-![Screenshot](http://www.tinymediamanager.org/wp-content/gallery/movies/movies01.png)
+![Screenshot](http://www.tinymediamanager.org/images/screenshots/movies/movies01.png)
