@@ -1,16 +1,15 @@
 pkgname=tinymediamanager
-pkgver=2.7.4
-_commit=fceff9c
+pkgver=2.9.13
+_commit=5cfe5d1
 pkgrel=1
 pkgdesc="An movies and tv shows organizer"
 arch=('x86_64')
 url="http://www.tinymediamanager.org/"
 license=('APACHE')  
 source=("http://release.tinymediamanager.org/dist/tmm_${pkgver}_${_commit}_linux.tar.gz" "tinyMediaManager.desktop")
-depends=("java-runtime")
-optdepends=("mediainfo")
-md5sums=('b26fa4b01b984cbaed50417bd6d84528'
-         '30e03d5ab8eaa74b7a3e9829b65cdd79')
+depends=('java-runtime' 'mediainfolib')
+sha1sums=('b1c763c0e530fbebde1541c13da5b9d448305247'
+          '351046a17408fa7cc61f84554f5109268a61e2ae')
 
 package() {
    install -dm777 $pkgdir/opt/tinymediamanager 
@@ -20,4 +19,4 @@ package() {
    install -dm755 $pkgdir/usr/bin
    ln -s  /opt/tinymediamanager/tinyMediaManager.sh $pkgdir/usr/bin/tinymediamanager 
    rm $pkgdir/opt/tinymediamanager/{tmm_${pkgver}_${_commit}_linux.tar.gz,tinyMediaManager.desktop}
-    }   
+    }
